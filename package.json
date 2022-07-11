@@ -1,0 +1,42 @@
+{
+  "name": "minxinutil",
+  "version": "1.0.0",
+  "description": "🔧公共混合工具函数",
+  "main": "index.js",
+  "scripts": {
+    "build:js": "rollup -c ",
+    "lint": "eslint --ext ts ./src",
+    "lint:fix": "eslint --fix --ext ts ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keli-w/minxinUtil.git"
+  },
+  "keywords": [
+    "util",
+    "utils",
+    "minxinUtil",
+    "JavaScript",
+    "工具"
+  ],
+  "author": "keLi<15302737418@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keli-w/minxinUtil/issues"
+  },
+  "homepage": "https://github.com/keli-w/minxinUtil#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.7.4"
+  }
+}
