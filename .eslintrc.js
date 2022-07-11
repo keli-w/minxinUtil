@@ -25,7 +25,7 @@ module.exports = {
   },
   rules: {
     'no-console': 2,
-    // 'no-magic-numbers': 2, // 禁止使用魔法数字
+    "@typescript-eslint/no-explicit-any": 0,
     'no-redeclare': 2,
     'block-spacing': [2, 'always'],
     'camelcase': [
