@@ -41,3 +41,17 @@ npm i rollup-plugin-babel@latest @babel/core @babel/preset-env -D
 ```bash
 npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 ```
+- 为工具函数添加单元测试， 选择了单元测试框架mocha
+- 断言库选择了nodeJS自带带assert
+- @babel/register是为了扩展文件名.js、.ts相当于webpack的resolve
+```bash
+npm i -D mocha @babel/register
+```
+- rollup-plugin-multi-input: roullup多入口打包模块，如果不使用该插件打包只能从单一入口打包，不能多入口同时打包构建
+```bash
+npm i -D rollup-plugin-multi-input
+```
+- 添加单元测试覆盖率,采用nyc模块,并配置nyc.config.js
+```bash
+npm i -D nyc
+```

@@ -1,7 +1,7 @@
 import assert from 'assert';
 import { isArray } from '../../../esm/common';
 
-describe('[esm]isArray', () => {
+describe('isArray', () => {
   var arr1 = [];
   var arr2 = new Array(2);
 

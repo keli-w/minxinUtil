@@ -9,7 +9,9 @@
     "lint": "eslint --ext ts ./src",
     "lint:fix": "eslint --fix --ext ts ./src",
     "cp-to-demo": "rimraf demo/esm && cp -r esm demo/esm",
-    "test": "mocha --recursive --cover --require @babel/register"
+    "test": "mocha --recursive --cover --require @babel/register",
+    "test:nyc": "nyc mocha --recursive --require @babel/register",
+    "clean": "rimraf coverage .nyc_output"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,7 @@
     "@typescript-eslint/parser": "^5.30.5",
     "eslint": "^8.19.0",
     "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.76.0",
     "rollup-plugin-babel": "^4.4.0",
