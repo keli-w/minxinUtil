@@ -5,10 +5,11 @@
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
   "scripts": {
-    "build:js": "rollup -c && npm run cp-to-demo",
+    "build": "rollup -c && npm run cp-to-demo",
     "lint": "eslint --ext ts ./src",
     "lint:fix": "eslint --fix --ext ts ./src",
     "cp-to-demo": "rimraf demo/esm && cp -r esm demo/esm",
+    "ci": "npm run build && npm run test:nyc",
     "test": "mocha --recursive --cover --require @babel/register",
     "test:nyc": "nyc mocha --recursive --require @babel/register",
     "clean": "rimraf coverage .nyc_output"
