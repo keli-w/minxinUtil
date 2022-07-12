@@ -3,4 +3,5 @@
  * @module common
  */
 
-export * from './isArray'
+export * from './isArray';
+export * from './isString';

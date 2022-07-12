@@ -11,6 +11,7 @@
     "experimentalDecorators": true,
     "baseUrl": "./",
     "declaration": true,
+    "declarationDir": "esm",
     "allowSyntheticDefaultImports": true,
     "typeRoots" : ["./typings"],
     "types": [],
