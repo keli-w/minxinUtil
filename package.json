@@ -5,6 +5,7 @@
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
   "scripts": {
+    "start:demo": "cd demo && npm run start",
     "build": "rollup -c && npm run cp-to-demo",
     "lint": "eslint --ext ts ./src",
     "lint:fix": "eslint --fix --ext ts ./src",

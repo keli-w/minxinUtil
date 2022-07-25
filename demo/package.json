@@ -1,0 +1,15 @@
+{
+  "name": "minxin-util-demo",
+  "version": "1.0.0",
+  "description": "minxinUtil库函数测试demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "minidev dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd-mini": "^0.0.19"
+  }
+}
